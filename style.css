@@ -1,0 +1,51 @@
+/* Body Tag Settings */
+body {
+	/* Text color */
+	color: white;
+	/* BG Color */
+	background: #1a1a1a;
+
+	/* Allows reasonable width and centers */
+	/* To make pages readable on smaller screens, */
+	/* look at index.html's head tag */
+	max-width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/*List Tag Settings*/
+li {
+	/*display: inline;*/
+}
+
+/*Emphatic Tag Settings*/
+.prices {
+	color: green;
+}
+
+/*Navigation Tag Settings*/
+ nav {
+}
+
+a {
+	color: yellow;
+}
+
+/* Make cursor blink */
+.blink {
+	animation: blink-animation 1s steps(5, start) infinite;
+}
+@keyframes blink-animation {
+	to {
+		visibility: hidden;
+	}
+}
+
+/* Footer */
+footer {
+	position: fixed;
+	bottom: 0;
+	width: 1000px;
+}
+
+/* Comment */
