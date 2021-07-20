@@ -24,7 +24,13 @@ li {
 }
 
 /*Navigation Tag Settings*/
- nav {
+.toplinks {
+	 display: inline;
+}
+.toplinks a:hover {
+	 display: inline;
+	 color: black;
+	 background-color: yellow;
 }
 
 a {
