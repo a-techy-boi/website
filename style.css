@@ -32,6 +32,11 @@ li {
 	 color: black;
 	 background-color: yellow;
 }
+.currentpage {
+	display: inline;
+	color: black;
+	background-color: yellow;
+}
 
 a {
 	color: yellow;
