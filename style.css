@@ -24,8 +24,12 @@ li {
 }
 
 /*Navigation Tag Settings*/
+.navbar {
+	text-align: center;
+}
 .toplinks {
 	 display: inline;
+	 padding: 4px;
 }
 .toplinks a:hover {
 	 display: inline;
