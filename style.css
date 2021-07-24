@@ -1,29 +1,22 @@
-/* Body Tag Settings */
+/*Body Tag Settings*/
 body {
-	/* Text color */
+	/*Text color*/
 	color: white;
-	/* BG Color */
+	/*BG Color*/
 	background: #1a1a1a;
 
-	/* Allows reasonable width and centers */
-	/* To make pages readable on smaller screens, */
-	/* look at index.html's head tag */
+	/*Allows reasonable width and centers*/
 	max-width: 1000px;
 	margin-left: auto;
 	margin-right: auto;
 }
 
-/*List Tag Settings*/
-li {
-	/*display: inline;*/
-}
-
-/*Emphatic Tag Settings*/
+/*Prices Class Settings*/
 .prices {
 	color: green;
 }
 
-/*Navigation Tag Settings*/
+/*Navigation Bar Settings*/
 .navbar {
 	text-align: center;
 }
@@ -42,11 +35,17 @@ li {
 	background-color: yellow;
 }
 
+/*Link Highlihts*/
 a {
 	color: yellow;
 }
 
-/* Make cursor blink */
+/*Cow Class Setings*/
+.cow {
+	font-family: monospace;
+}
+
+/*Make Cursor Blink*/
 .blink {
 	animation: blink-animation 1s steps(5, start) infinite;
 }
@@ -56,11 +55,12 @@ a {
 	}
 }
 
-/* Footer */
+/*Footer*/
+/*Unused as there is no content in footer*/
 footer {
 	position: fixed;
 	bottom: 0;
 	width: 1000px;
 }
 
-/* Comment */
+/*Comment*/
